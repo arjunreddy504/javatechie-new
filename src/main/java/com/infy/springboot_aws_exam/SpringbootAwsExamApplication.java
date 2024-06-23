@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbootAwsExamApplication {
 
-	@GetMapping("/welcome")
+	@GetMapping("/greet")
 	public String greet(){
 		return "Welcome to aws deployment process";
 	}
